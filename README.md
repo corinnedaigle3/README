@@ -98,6 +98,23 @@ Music / SFX:
 
 **Github:** https://github.com/corinnedaigle3/BedtimeRebellion
 
+<br>
+Code:
+
+<img width="975" height="376" alt="image" src="https://github.com/user-attachments/assets/b5bbe767-2d94-4c56-8861-e941b9804303" />
+
+<img width="975" height="251" alt="image" src="https://github.com/user-attachments/assets/4d7889e0-1fd9-4f3e-8b3d-3e60826c70c6" />
+
+<img width="975" height="677" alt="image" src="https://github.com/user-attachments/assets/bc0352e4-3b3e-497f-a730-d876ac87ad8a" />
+
+<img width="975" height="206" alt="image" src="https://github.com/user-attachments/assets/fd1345ee-f65e-4b2c-8a5e-25f3167119c2" />
+
+<img width="975" height="366" alt="image" src="https://github.com/user-attachments/assets/17906f6c-e77a-4b11-a46d-bac0f4f7a373" />
+
+<img width="975" height="206" alt="image" src="https://github.com/user-attachments/assets/9f00a1d3-0eb4-4791-a46d-a088e289095f" />
+
+<img width="975" height="524" alt="image" src="https://github.com/user-attachments/assets/40d4b50d-142a-471c-b9d6-c46ba731c462" />
+
 
 <br><br>
 ### Dating-Roguelike: ###
@@ -290,6 +307,56 @@ Created the marketing video
 **Itch:** https://antro55.itch.io/flameboundgem
 
 **Github:** https://github.com/kingkaue/Group-Proj-2-Hallway
+
+<br>
+Code:
+
+Visibility – 
+
+•	Sets sprites visible or invisible based on player distance from object(s). 
+
+<br>GameOverScreen – 
+
+•	Shows when player is caught
+
+o	Restart
+
+o	Back to menu
+
+<br>WinScreen –
+
+•	Shows when player retrieves item
+
+o	Restart
+
+o	Back to menu
+
+<br>MainMenu –
+
+•	Play game
+
+•	Quit application
+
+•	Show Credits
+
+<br>DragonAttack – 
+
+•	If collision with the player, end game.
+
+<br>DragonFollow –
+
+•	The dragon actively chases the player.
+
+•	If the player is gazing upon the dragon, teleport it to safe space, then continue following.
+
+<br>DragonVisibility –
+
+•	Checks if player is in line of sight.
+
+<br>
+Music / SFX:
+
+•	I picked and set up all the music and SFX for the game.
 
 
 <br><br>
