@@ -1,24 +1,25 @@
 # README
 What I did in every project.
 
-Game Design:
+## Game Design: ##
 
 
-AllHailSewerRat: (GameJam)
+### AllHailSewerRat: (GameJam) ###
 
-Itch: https://ghost-knights.itch.io/all-hail-sewer-rat
+**Itch:** https://ghost-knights.itch.io/all-hail-sewer-rat
 
-Github: https://github.com/corinnedaigle3/AllHailSewerRat
+**Github:** https://github.com/corinnedaigle3/AllHailSewerRat
 
+<br>
 Code:
 
-PatrolRat –
+<br>PatrolRat –
 
 •	Sets waypoints and states depending on player location/detection.
 
 •	Lose condition (caught)
 
-RatKing –
+<br>RatKing –
 
 •	Controls the Rat King boss AI.
 
@@ -32,7 +33,7 @@ RatKing –
 
 •	Lose Condition (collisions with projectiles) 
 
-PresentRatKing (for testing)–
+<br>PresentRatKing (for testing)–
 
 •	Rotates the object to face the player.
 
@@ -42,11 +43,11 @@ o	Show UI text
 
 o	Win Screen
 
-RatProjectileWCheese –
+<br>RatProjectileWCheese –
 
 •	No effect on player.
 
-HPBars –
+<br>HPBars –
 
 •	Controls the Rat King boss HP bar UI.
 
@@ -56,13 +57,13 @@ o	talkingDone → whether the cutscene/dialogue has finished.
 
 o	DoorWithCheese → whether the player has cheese, which affects HP bar behavior.
 
-RatProjectile – 
+<br>RatProjectile – 
 
 •	Detects collisions with any object.
 
 •	Destroys player and projectile on collision w/ player.
 
-Projectile –
+<br>Projectile –
 
 •	Fires a projectile in the forward direction of the LookAtPoint object.
 
@@ -72,7 +73,7 @@ o	Enemies ("Enemy" tag) → destroys both projectile and enemy.
 
 o	Rat King ("RatKing" tag) → destroys both projectile and boss.
 
-MainCreditsUI –
+<br>MainCreditsUI –
 
 •	Controls the Main Menu UI. 
 
@@ -80,33 +81,32 @@ MainCreditsUI –
 
 •	Unlocks the cursor so the player can click UI buttons.
 
-PauseMenu –
+<br>PauseMenu –
 
 •	Pauses/Unpauses the Game
 
-
-
+<br>
 Music / SFX:
+
 •	Picked out the music
 
 
-BedtimeRebellion: (GameJam)
+<br><br>
+### BedtimeRebellion: (GameJam) ###
 
-Itch: https://ghost-knights.itch.io/bedtime-rebellion
+**Itch:** https://ghost-knights.itch.io/bedtime-rebellion
 
-Github: https://github.com/corinnedaigle3/BedtimeRebellion
-
-
-
-Dating-Roguelike:
-
-Itch: None
-
-Github: https://github.com/popoyo07/dating-roguelike
+**Github:** https://github.com/corinnedaigle3/BedtimeRebellion
 
 
+<br><br>
+### Dating-Roguelike: ###
 
-Code:
+**Itch:** None
+
+**Github:** https://github.com/popoyo07/dating-roguelike
+
+<br>Code:
 
 DeckUIManager – 
 
@@ -116,27 +116,27 @@ DeckManager – Helped by setting reffs
 
 •	Referencing/Hookup to DeckUIManager.
 
-AllCardsOfCharacter –
+<br>AllCardsOfCharacter –
 
 •	Database for storing card images and names.
 
-MusicManager – 
+<br>MusicManager – 
 
 •	Connects and controls all music and SFX to volume slides.
 
-Rewards – 
+<br>Rewards – 
 
 •	Handles adding and showcasing rewards after player defeats an enemy.
 
-MenuButtons –
+<br>MenuButtons –
 
 •	Sets UI elements active or inactive
 
-CanvasMainMenu –
+<br>CanvasMainMenu –
 
 •	Sets UI elements active or inactive
 
-ChooseRoom –
+<br>ChooseRoom –
 
 •	This script handles room selection in a game, where the player chooses between two rooms. 
 
@@ -144,7 +144,7 @@ ChooseRoom –
 
 •	It updates UI buttons to show which enemies are in each room and queues the chosen enemy to spawn.
 
-MoveRoomA –
+<br>MoveRoomA –
 
 •	Initializes the variables
 
@@ -152,7 +152,7 @@ MoveRoomA –
 
 •	Teleports to starting position once destination is reached (for “endless rooms” effect)
 
-MoveRoomB –
+<br>MoveRoomB –
 
 •	Initializes the variables
 
@@ -160,7 +160,7 @@ MoveRoomB –
 
 •	Teleports to starting position once destination is reached (for “endless rooms” effect)
 
-EnemySpawner – (Helped, only did part of Boss Code, Rest Done by Me)
+<br>EnemySpawner – (Helped, only did part of Boss Code, Rest Done by Me)
 
 •	Enemy & Boss Selection
 
@@ -195,49 +195,49 @@ o	Works closely with BattleSystem.state to trigger spawns after a battle is won.
 o	Tracks which room the player is in to increment boss room counters.
 
 
-
+<br>
 Music SFX:
 
 •	I picked and set up all the music and SFX for the game
 
 
-FatesoftheFallen:
+<br><br>
+### FatesoftheFallen: ###
 
-Itch: https://ghost-knights.itch.io/fates-of-the-fallen-byghostknights
+**Itch:** https://ghost-knights.itch.io/fates-of-the-fallen-byghostknights
 
-Github: https://github.com/corinnedaigle3/FatesoftheFallen
+**Github:** https://github.com/corinnedaigle3/FatesoftheFallen
 
-
-
+<br>
 Code:
 
-TeleportPlayerWaterE – 
+<br>TeleportPlayerWaterE – 
 
 •	Handles teleporting the player when entering a trigger (for example, falling into water)
 
 •	Also notifies the level manager if the player has fallen.
 
-Inventory – 
+<br>Inventory – 
 
 •	Handles storage and management of items the player owns.
 
 •	Supports stackable and non-stackable items and triggers events when the inventory changes.
 
-Item –
+<br>Item –
 
 •	Represents an individual item that can exist in the player's inventory.
 
 •	Each item has a type, an amount, and a way to get its visual representation (sprite).
 
-Item Assets –
+<br>Item Assets –
 
 •	Holds all the sprites for the inventory.
 
-UI_Inventory –
+<br>UI_Inventory –
 
 •	It takes the list of Item objects from your Inventory class and creates button slots for each one on the screen.
 
-Cam – 
+<br>Cam – 
 
 •	Makes the player’s movement direction follow the camera’s facing direction.
 
@@ -245,17 +245,17 @@ Cam –
 
 •	Uses camera orientation to calculate movement relative to where the player is looking.
 
-PlayerMovement – 
+<br>PlayerMovement – 
 
 •	Handles the movements and abilities of the player.
 
-ImageFade – 
+<br>ImageFade – 
 
 •	Handles the visual icon that tells the player that they can dodge.
 
 •	Unlocks when player is in enemy range. 
 
-UI – Helped with this one by setting things active and inactive.
+<br>UI – Helped with this one by setting things active and inactive.
 
 •	Handles all UI logic for the game:
 
@@ -269,52 +269,48 @@ o	Cursor visibility and navigation
 
 o	Button navigation through EventSystem
 
-
-
+<br>
 Music / SFX:
 
 •	I picked and set up all the music and SFX for the game minus the music for Elysium. 
 
 •	Created one of the screams in Tarturus.
 
-
-
+<br>
 Cut Scenes / Video: 
 
 Created, co-wrote the scripts, and animated all the cut scenes.
 
 Created the marketing video
 
- 
+
+<br><br>
+### Group-Proj-2-Hallway (The Flamebound Gem): ###
+
+**Itch:** https://antro55.itch.io/flameboundgem
+
+**Github:** https://github.com/kingkaue/Group-Proj-2-Hallway
 
 
+<br><br>
+### PATCHED: ###
 
-Group-Proj-2-Hallway (The Flamebound Gem):
+**Itch:** None
 
-Itch: https://antro55.itch.io/flameboundgem
-
-Github: https://github.com/kingkaue/Group-Proj-2-Hallway
-
-
-
-PATCHED:
-
-Itch: None
-
-Github: https://github.com/corinnedaigle3/PATCHED
+**Github:** https://github.com/corinnedaigle3/PATCHED
 
 
+<br><br>
+### SummerJam (Purr Summer): (GameJam) ###
 
-SummerJam (Purr Summer): (GameJam)
+**Itch:** https://ghost-knights.itch.io/purr-summer
 
-Itch: https://ghost-knights.itch.io/purr-summer
-
-Github: https://github.com/popoyo07/SummerJam
-
-
-
-Small Coding Projects: 
-
-Github:
+**Github:** https://github.com/popoyo07/SummerJam
 
 
+<br><br>
+### Small Coding Projects: ###
+
+**Itch:** None
+
+**Github:**
