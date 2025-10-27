@@ -378,8 +378,7 @@ Music / SFX:
 <br><br>
 ### Small Coding Projects: ###
 
-**Github:** https://github.com/corinnedaigle3?tab=stars
-
 **Itch:** None
 
-**Github:**
+**Github:** https://github.com/corinnedaigle3?tab=stars
+
