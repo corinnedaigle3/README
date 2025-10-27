@@ -311,6 +311,8 @@ Created the marketing video
 <br><br>
 ### Small Coding Projects: ###
 
+**Github:** https://github.com/corinnedaigle3?tab=stars
+
 **Itch:** None
 
 **Github:**
