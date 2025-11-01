@@ -411,7 +411,7 @@ Code
 
 **Github:** https://github.com/corinnedaigle3?tab=stars
 
-<br>
+<br><br>
 ### Coding2_Lab1: ###
 
 Github: https://github.com/corinnedaigle3/Coding2_Lab1
@@ -429,7 +429,7 @@ ChessBoard –
 
 •	Allows user to change the pawns color in the inspector in reatime
 
-<br>
+<br><br>
 ### Coding2_Lab2: ###
 
 Github: https://github.com/corinnedaigle3/Coding2_Lab2/blob/main/Assets/Runtime/CubeBehaviour.cs
@@ -451,7 +451,7 @@ CubeBehaviourEditor–
 
 •	Holds the variable for the size of spheres
 
-<br>
+<br><br>
 ### Coding2_Lab3: ###
 Github: https://github.com/corinnedaigle3/Coding2_Lab3
 
@@ -464,7 +464,7 @@ Targeting –
 
 •	Basic player movement
 
-<br>
+<br><br>
 ### DIG4778C_Lab4: ###
 
 Github: https://github.com/corinnedaigle3/DIG4778C_Lab4
@@ -478,7 +478,7 @@ Player –
 
 •	Updated the meteor script so it will rotate around the player
 
-<br>
+<br><br>
 ### Lab5: ###
 
 Github: http://github.com/LilyW3865/Lab5/tree/main
@@ -488,7 +488,7 @@ Avoider –
 
 •	Handles when the avoider sees the avoided, select new poissin point until hidden.
 
-<br>
+<br><br>
 ### Coding2_Lab6: ###
 
 Github: https://github.com/corinnedaigle3/Lab6TextAdv
@@ -498,6 +498,7 @@ DLL –
 
 •	Text Adventure tutorial 
 
+<br><br>
 ### Coding_Lab7: ###
 
 Github: https://github.com/Sze0921HY/Coding_Lab7
@@ -511,6 +512,7 @@ DLL Native –
 
 •	function to test how long it takes to sort an array
 
+<br><br>
 ### Coding2_Lab9/10: ###
 
 Github:  https://github.com/corinnedaigle3/Coding2_Lab9
@@ -546,7 +548,7 @@ Target –
 
 •	An interface that defines the saved data using an Id. It has a saving class that manages the actual saving and loading of objects.
 
-<br>
+<br><br>
 ### Coding2_Lab11: ###
 
 Github: https://github.com/corinnedaigle3/Coding2_Lab11
