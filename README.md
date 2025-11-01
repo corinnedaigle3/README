@@ -379,7 +379,27 @@ Music / SFX:
 **Github:** https://github.com/popoyo07/SummerJam
 
 <br>
-Code
+Code:
+
+Saving -
+
+- Handles saving scores both during runtime and when exiting the application.
+
+- Handles updating new high scores and the latest score.
+
+- Handles tickets.
+
+<br>CatTower (SandCastle) -
+
+- Dragging Sprites
+- Correct sprite handling
+- Timer
+
+<br>LitterBox (Dig Sand) -
+
+- Clicking buttons
+- Randomizing numbers
+<br>
 
 <img width="724" height="707" alt="StoringVar" src="https://github.com/user-attachments/assets/5a896852-da22-4bdd-96f7-742a5583ad6c" />
 
