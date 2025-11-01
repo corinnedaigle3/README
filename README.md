@@ -1,5 +1,5 @@
 # README
-What I did in every project.
+My contributions to every project.
 
 ## Game Design: ##
 
@@ -234,6 +234,10 @@ Code:
 
 •	Also notifies the level manager if the player has fallen.
 
+<br>pSpawn - 
+
+•	Sets the spawn location of the player after they teleport
+
 <br>Inventory – 
 
 •	Handles storage and management of items the player owns.
@@ -403,9 +407,157 @@ Code
 
 
 <br><br>
-### Small Coding Projects: ###
-
-**Itch:** None
+## Small Coding Projects: ##
 
 **Github:** https://github.com/corinnedaigle3?tab=stars
 
+### Coding2_Lab1: ###
+
+Github: https://github.com/corinnedaigle3/Coding2_Lab1
+
+<br>
+ChessBoard – 
+
+•	Draws an eight by eight grid using Gizmos.DrawLine.
+
+<br>HandlePiece – 
+
+•	Draws a custom Scene view gizmo for GameObjects with the script
+
+<br>ColorPiece – 
+
+•	Allows user to change the pawns color in the inspector in reatime
+
+
+### Coding2_Lab2: ###
+
+Github: https://github.com/corinnedaigle3/Coding2_Lab2/blob/main/Assets/Runtime/CubeBehaviour.cs
+
+<br>
+CubeBehaviourEditor– 
+
+•	Handles the size of cubes, selection of cubes, and button for cubes
+
+<br>SphereBehaviourEditor– 
+
+•	Handles the size of spheres, selection of spheres, and button for spheres
+
+<br>CubeBehaviour– 
+
+•	Holds the variable for the size of cubes
+
+<br>SphereBehaviour– 
+
+•	Holds the variable for the size of spheres
+
+### Coding2_Lab3: ###
+Github: https://github.com/corinnedaigle3/Coding2_Lab3
+
+<br>
+Targeting – 
+
+•	Handles enemy movement (rotating around the player, while never hitting the player)
+
+<br>PlayerMovement – 
+
+•	Basic player movement
+
+### DIG4778C_Lab4: ###
+
+Github: https://github.com/corinnedaigle3/DIG4778C_Lab4
+
+<br>
+Player – 
+
+•	Handles player movement with the new input system
+
+<br>Meteor – (Updated)
+
+•	Updated the meteor script so it will rotate around the player
+
+### Lab5: ###
+
+Github: http://github.com/LilyW3865/Lab5/tree/main
+
+<br>
+Avoider – 
+
+•	Handles when the avoider sees the avoided, select new poissin point until hidden.
+
+### Coding2_Lab6: ###
+
+Github: https://github.com/corinnedaigle3/Lab6TextAdv
+
+<br>
+DLL – 
+
+•	Text Adventure tutorial 
+
+### Coding_Lab7: ###
+
+Github: https://github.com/Sze0921HY/Coding_Lab7
+
+<br> 
+DLL Native – 
+
+•	function to test how long it takes to sort an array
+
+<br>Test DLL – 
+
+•	function to test how long it takes to sort an array
+
+### Coding2_Lab9/10: ###
+
+Github:  https://github.com/corinnedaigle3/Coding2_Lab9
+
+<br>
+Target –
+
+•	Sets the rigidbody velocity to move right * speed from TargetBuilder.cs to the spawned targets in TargetSpawner.cs 1-3
+
+•	Destroys target after 5 seconds for optimization.
+
+<br>TargetBuilder –
+
+•	TargetBuilder class holds the variables 
+
+•	The Builder class sets values and retuns the builder
+
+•	Build function is where the GameObjects are created
+
+<br>TargetSpawner(1-3) –  
+
+•	Spawns’ random targets constructed targets from TargetBuilder.cs at set intervals
+
+•	Sets the variables from TargetBuilder.cs
+
+•	Returns the Build function
+
+<br>SaveManager – 
+
+•	Implements the saving/loading when the respective keyboard buttons are pressed and destroys the save when it is loaded.
+
+<br>ISaveable – (Helped)
+
+•	An interface that defines the saved data using an Id. It has a saving class that manages the actual saving and loading of objects.
+
+### Coding2_Lab11: ###
+
+Github: https://github.com/corinnedaigle3/Coding2_Lab11
+
+<br>
+Pathfinding – 
+
+•	Sets the NavMeshAgent's target destination to the goal position
+
+•	Draw the calculated path in blue, start cell in green, and goal cell in red
+
+•	Check if grid coordinates are within the grid
+
+<br>LevelGenerator –
+
+•	Set grid width and height
+
+•	Spawns in player
+
+•	Generates grid
