@@ -399,31 +399,6 @@ Saving -
 
 - Clicking buttons
 - Randomizing numbers
-<br>
-
-<img width="724" height="707" alt="StoringVar" src="https://github.com/user-attachments/assets/5a896852-da22-4bdd-96f7-742a5583ad6c" />
-
-<img width="1112" height="600" alt="SC_SlotMouse" src="https://github.com/user-attachments/assets/b2c56cd9-981a-4063-86a2-a22d56dcc5ae" />
-
-<img width="946" height="865" alt="SC_SlotMain" src="https://github.com/user-attachments/assets/28f71998-a4b2-4bd3-b573-4f5fdfaa4b2f" />
-
-<img width="1732" height="382" alt="SC_SlotDropped" src="https://github.com/user-attachments/assets/e7f68e83-1531-4245-bde4-9e289f61cfe0" />
-
-<img width="1112" height="600" alt="SC_SlotDrag" src="https://github.com/user-attachments/assets/a36403ec-d303-4d6b-8bae-0edbb9f7aec9" />
-
-<img width="1071" height="318" alt="SC_DraggedImage" src="https://github.com/user-attachments/assets/a081ccbd-827c-45cd-affd-c6a6e039b3ca" />
-
-<img width="1558" height="901" alt="Save" src="https://github.com/user-attachments/assets/6483074e-57fa-4352-b0e1-3110a25729dd" />
-
-<img width="2297" height="1082" alt="SandCastleMain" src="https://github.com/user-attachments/assets/e1461578-a53e-4121-bee7-b28b760ff3cf" />
-
-<img width="1516" height="1170" alt="Press E" src="https://github.com/user-attachments/assets/ffde127c-51a6-4434-b772-2626c36047cb" />
-
-<img width="1574" height="704" alt="Open Mini Game" src="https://github.com/user-attachments/assets/b5a431d8-5932-4c80-afaf-822365056261" />
-
-<img width="2250" height="1087" alt="GameMode" src="https://github.com/user-attachments/assets/33640301-8926-42ad-8e91-0e27a3e8f926" />
-
-<img width="1738" height="1073" alt="DigSand" src="https://github.com/user-attachments/assets/d5ecff2d-faa4-4a2f-9eef-68981540ee7a" />
 
 
 <br><br>
