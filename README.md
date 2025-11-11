@@ -21,74 +21,74 @@ Code:
 
 <br>RatKing –
 
-•	Controls the Rat King boss AI.
+- Controls the Rat King boss AI.
 
-•	Handles movement toward/away from the player.
+-	Handles movement toward/away from the player.
 
-•	Detects player sight, attack, and text ranges.
+-	Detects player sight, attack, and text ranges.
 
-•	Plays music and sound effects based on game state.
+-	Plays music and sound effects based on game state.
 
-•	Shows dialogue/text during the fight or cutscene.
+-	Shows dialogue/text during the fight or cutscene.
 
-•	Lose Condition (collisions with projectiles) 
+-	Lose Condition (collisions with projectiles) 
 
 <br>PresentRatKing (for testing)–
 
-•	Rotates the object to face the player.
+- Rotates the object to face the player.
 
-•	When player in range:
+- When player in range:
 
-o	Show UI text
+- Show UI text
 
-o	Win Screen
+- Win Screen
 
 <br>RatProjectileWCheese –
 
-•	No effect on player.
+-	No effect on player.
 
 <br>HPBars –
 
-•	Controls the Rat King boss HP bar UI.
+-	Controls the Rat King boss HP bar UI.
 
-•	Checks the RatKing script for:
+-	Checks the RatKing script for:
 
-o	talkingDone → whether the cutscene/dialogue has finished.
+-	talkingDone → whether the cutscene/dialogue has finished.
 
-o	DoorWithCheese → whether the player has cheese, which affects HP bar behavior.
+-	DoorWithCheese → whether the player has cheese, which affects HP bar behavior.
 
 <br>RatProjectile – 
 
-•	Detects collisions with any object.
+-	Detects collisions with any object.
 
-•	Destroys player and projectile on collision w/ player.
+-	Destroys player and projectile on collision w/ player.
 
 <br>Projectile –
 
-•	Fires a projectile in the forward direction of the LookAtPoint object.
+- Fires a projectile in the forward direction of the LookAtPoint object.
 
-•	Detects collisions with:
+- Detects collisions with:
 
-o	Enemies ("Enemy" tag) → destroys both projectile and enemy.
+-	Enemies ("Enemy" tag) → destroys both projectile and enemy.
 
-o	Rat King ("RatKing" tag) → destroys both projectile and boss.
+-	Rat King ("RatKing" tag) → destroys both projectile and boss.
 
 <br>MainCreditsUI –
 
-•	Controls the Main Menu UI. 
+-	Controls the Main Menu UI. 
 
-•	Handles visibility of main menu and credits panels.
+-	Handles visibility of main menu and credits panels.
 
-•	Unlocks the cursor so the player can click UI buttons.
+-	Unlocks the cursor so the player can click UI buttons.
 
 <br>PauseMenu –
 
-•	Pauses/Unpauses the Game
+-	Pauses/Unpauses the Game
 
 <br>
 Music / SFX:
 
-•	Picked out the music
+-	Picked out the music
 
 
 <br><br>
@@ -101,19 +101,17 @@ Music / SFX:
 <br>
 Code:
 
-<img width="975" height="376" alt="image" src="https://github.com/user-attachments/assets/b5bbe767-2d94-4c56-8861-e941b9804303" />
+Main Scene Code –
 
-<img width="975" height="251" alt="image" src="https://github.com/user-attachments/assets/4d7889e0-1fd9-4f3e-8b3d-3e60826c70c6" />
+-	Parent Alarm system
 
-<img width="975" height="677" alt="image" src="https://github.com/user-attachments/assets/bc0352e4-3b3e-497f-a730-d876ac87ad8a" />
+-	Score system
 
-<img width="975" height="206" alt="image" src="https://github.com/user-attachments/assets/fd1345ee-f65e-4b2c-8a5e-25f3167119c2" />
+-	Random spawn
 
-<img width="975" height="366" alt="image" src="https://github.com/user-attachments/assets/17906f6c-e77a-4b11-a46d-bac0f4f7a373" />
+-	Correct item identification
 
-<img width="975" height="206" alt="image" src="https://github.com/user-attachments/assets/9f00a1d3-0eb4-4791-a46d-a088e289095f" />
-
-<img width="975" height="524" alt="image" src="https://github.com/user-attachments/assets/40d4b50d-142a-471c-b9d6-c46ba731c462" />
+-	Sleep logic
 
 
 <br><br>
@@ -127,95 +125,95 @@ Code:
 
 DeckUIManager – 
 
-•	Handles instantiating a card in the UI for every card in player deck.
+-	Handles instantiating a card in the UI for every card in player deck.
 
-DeckManager – Helped by setting reffs
+<br>DeckManager – Helped by setting reffs
 
-•	Referencing/Hookup to DeckUIManager.
+-	Referencing/Hookup to DeckUIManager.
 
 <br>AllCardsOfCharacter –
 
-•	Database for storing card images and names.
+-	Database for storing card images and names.
 
 <br>MusicManager – 
 
-•	Connects and controls all music and SFX to volume slides.
+-	Connects and controls all music and SFX to volume slides.
 
 <br>Rewards – 
 
-•	Handles adding and showcasing rewards after player defeats an enemy.
+-	Handles adding and showcasing rewards after player defeats an enemy.
 
 <br>MenuButtons –
 
-•	Sets UI elements active or inactive
+-	Sets UI elements active or inactive
 
 <br>CanvasMainMenu –
 
-•	Sets UI elements active or inactive
+-	Sets UI elements active or inactive
 
 <br>ChooseRoom –
 
-•	This script handles room selection in a game, where the player chooses between two rooms. 
+-	This script handles room selection in a game, where the player chooses between two rooms. 
 
-•	Each room has a corresponding enemy, and sometimes a boss room overrides the normal enemy visuals. 
+-	Each room has a corresponding enemy, and sometimes a boss room overrides the normal enemy visuals. 
 
-•	It updates UI buttons to show which enemies are in each room and queues the chosen enemy to spawn.
+-	It updates UI buttons to show which enemies are in each room and queues the chosen enemy to spawn.
 
 <br>MoveRoomA –
 
-•	Initializes the variables
+-	Initializes the variables
 
-•	Triggers movement when BattleState is WON
+-	Triggers movement when BattleState is WON
 
-•	Teleports to starting position once destination is reached (for “endless rooms” effect)
+-	Teleports to starting position once destination is reached (for “endless rooms” effect)
 
 <br>MoveRoomB –
 
-•	Initializes the variables
+-	Initializes the variables
 
-•	Triggers movement when BattleState is WON
+-	Triggers movement when BattleState is WON
 
-•	Teleports to starting position once destination is reached (for “endless rooms” effect)
+-	Teleports to starting position once destination is reached (for “endless rooms” effect)
 
 <br>EnemySpawner – (Helped, only did part of Boss Code, Rest Done by Me)
 
-•	Enemy & Boss Selection
+-	Enemy & Boss Selection
 
-o	Randomly selects an enemy type list (sirenList, vampireList, or idkList).
+-	Randomly selects an enemy type list (sirenList, vampireList, or idkList).
 
-o	Tracks rooms visited to determine when to spawn a boss (roomsSpawnBoss).
+-	Tracks rooms visited to determine when to spawn a boss (roomsSpawnBoss).
 
-•	Spawning Logic
+-	Spawning Logic
 
-o	Normal enemies spawn randomly from the active list.
+-	Normal enemies spawn randomly from the active list.
 
-o	Players can queue a specific enemy to spawn next.
+-	Players can queue a specific enemy to spawn next.
 
-o	Bosses spawn in specific rooms (6, 12, 18) and override normal enemies.
+-	Bosses spawn in specific rooms (6, 12, 18) and override normal enemies.
 
-•	Music Control
+-	Music Control
 
-o	Stops all music and plays the appropriate boss track when a boss spawns.
+-	Stops all music and plays the appropriate boss track when a boss spawns.
 
-o	Resumes default music when boss is defeated or skipped.
+- Resumes default music when the boss is defeated or skipped.
 
-•	Cleanup
+-	Cleanup
 
-o	DestroyEnemy() removes normal enemies.
+-	DestroyEnemy() removes normal enemies.
 
-o	DestroyBoss() removes boss and resets flags.
+-	DestroyBoss() removes the boss and resets flags.
 
-•	Integration with BattleSystem
+-	Integration with BattleSystem
 
-o	Works closely with BattleSystem.state to trigger spawns after a battle is won.
+-	Works closely with BattleSystem.state to trigger spawns after a battle is won.
 
-o	Tracks which room the player is in to increment boss room counters.
+-	Tracks which room the player is in to increment boss room counters.
 
 
 <br>
 Music SFX:
 
-•	I picked and set up all the music and SFX for the game
+-	Picked and set up all the music and SFX for the game
 
 
 <br><br>
@@ -230,79 +228,79 @@ Code:
 
 <br>TeleportPlayerWaterE – 
 
-•	Handles teleporting the player when entering a trigger (for example, falling into water)
+-	Handles teleporting the player when entering a trigger (for example, falling into water)
 
-•	Also notifies the level manager if the player has fallen.
+-	Also notifies the level manager if the player has fallen.
 
 <br>pSpawn - 
 
-•	Sets the spawn location of the player after they teleport
+-	Sets the spawn location of the player after they teleport
 
 <br>Inventory – 
 
-•	Handles storage and management of items the player owns.
+-	Handles storage and management of items the player owns.
 
-•	Supports stackable and non-stackable items and triggers events when the inventory changes.
+-	Supports stackable and non-stackable items and triggers events when the inventory changes.
 
 <br>Item –
 
-•	Represents an individual item that can exist in the player's inventory.
+-	Represents an individual item that can exist in the player's inventory.
 
-•	Each item has a type, an amount, and a way to get its visual representation (sprite).
+-	Each item has a type, an amount, and a way to get its visual representation (sprite).
 
 <br>Item Assets –
 
-•	Holds all the sprites for the inventory.
+-	Holds all the sprites for the inventory.
 
 <br>UI_Inventory –
 
-•	It takes the list of Item objects from your Inventory class and creates button slots for each one on the screen.
+-	It takes the list of Item objects from your Inventory class and creates button slots for each one on the screen.
 
 <br>Cam – 
 
-•	Makes the player’s movement direction follow the camera’s facing direction.
+-	Makes the player’s movement direction follow the camera’s facing direction.
 
-•	Smoothly rotates the player model toward the direction of input.
+-	Smoothly rotates the player model toward the direction of input.
 
-•	Uses camera orientation to calculate movement relative to where the player is looking.
+- Uses camera orientation to calculate movement relative to where the player is looking.
 
 <br>PlayerMovement – 
 
-•	Handles the movements and abilities of the player.
+-	Handles the movements and abilities of the player.
 
 <br>ImageFade – 
 
-•	Handles the visual icon that tells the player that they can dodge.
+-	Handles the visual icon that tells the player that they can dodge.
 
-•	Unlocks when player is in enemy range. 
+-	Unlocks when the player is in enemy range. 
 
 <br>UI – Helped with this one by setting things active and inactive.
 
-•	Handles all UI logic for the game:
+-	Handles all UI logic for the game:
 
-o	Menu activation per scene
+-	Menu activation per scene
 
-o	Pause / resume control
+-	Pause/resume control
 
-o	Scene transitions
+-	Scene transitions
 
-o	Cursor visibility and navigation
+-	Cursor visibility and navigation
 
-o	Button navigation through EventSystem
+-	Button navigation through EventSystem
 
 <br>
 Music / SFX:
 
-•	I picked and set up all the music and SFX for the game minus the music for Elysium. 
+-	Picked and set up all the music and SFX for the game minus the music for Elysium. 
 
-•	Created one of the screams in Tarturus.
+-	Created one of the screams in Tarturus.
 
 <br>
 Cut Scenes / Video: 
 
-Created, co-wrote the scripts, and animated all the cut scenes.
+- Created, co-wrote the scripts, and animated all the cut scenes.
 
-Created the marketing video
+- Created the marketing video
 
 
 <br><br>
@@ -317,50 +315,50 @@ Code:
 
 Visibility – 
 
-•	Sets sprites visible or invisible based on player distance from object(s). 
+-	Sets sprites visible or invisible based on player distance from object(s). 
 
 <br>GameOverScreen – 
 
-•	Shows when player is caught
+-	Shows when the player is caught
 
-o	Restart
+-	Restart
 
-o	Back to menu
+-	Back to menu
 
 <br>WinScreen –
 
-•	Shows when player retrieves item
+-	Shows when the player retrieves the item
 
-o	Restart
+-	Restart
 
-o	Back to menu
+-	Back to menu
 
 <br>MainMenu –
 
-•	Play game
+-	Play the game
 
-•	Quit application
+-	Quit application
 
-•	Show Credits
+-	Show Credits
 
 <br>DragonAttack – 
 
-•	If collision with the player, end game.
+-	If a collision with the player occurs, end the game.
 
 <br>DragonFollow –
 
-•	The dragon actively chases the player.
+-	The dragon actively chases the player.
 
-•	If the player is gazing upon the dragon, teleport it to safe space, then continue following.
+-	If the player is gazing upon the dragon, teleport it to a safe space, then continue following.
 
 <br>DragonVisibility –
 
-•	Checks if player is in line of sight.
+-	Checks if the player is in line of sight.
 
 <br>
 Music / SFX:
 
-•	I picked and set up all the music and SFX for the game.
+-	Picked and set up all the music and SFX for the game.
 
 
 <br><br>
@@ -369,6 +367,145 @@ Music / SFX:
 **Itch:** None
 
 **Github:** https://github.com/corinnedaigle3/PATCHED
+
+<br>
+Code:
+
+Bp_PickUpEquiptLeg – 
+
+-	Handles picking up the leg and setting the player's speed
+
+<br>BP_ PickUpEquiptArm –
+
+-	Handles picking up the arm
+  
+<br>BP_NewBoxPush -
+
+-	Handles simulating movable objects' physics
+  
+-	Handles if the player can interact with it
+  
+-	Controls move object SFX
+  
+<br>BP_AlwaysMovingPlatform –
+
+-	Allows and sets move positions
+  
+-	Always move
+  
+<br>BP_ActivateMovingPlatform –
+
+-	Allows and sets move positions
+  
+-	Moves on activation
+  
+<br>BP_ActivateMovingPlatformOn_Off–
+
+-	Allows and sets move positions
+  
+-	Moves on activation once
+  
+<br>BP_Lore-4 –
+
+-	Handles showing lore pop-up on/off-screen
+
+<br>BP_LoreManager –
+
+-	Keeps track of which lore sheets have been collected
+  
+-	Once all are collected, congratulate the player
+
+<br>BP_Crusher – 
+
+- Handles the movement of crusher parts
+  
+- If player is crushed by the crushed kill player
+
+<br>BP_CrusherButton – 
+
+- Turns the crusher on/off
+
+<br>BP_Grabber –
+
+-	Handles grabber movement
+  
+-	If the player is in range of the grabber, the player is frozen for 2 sec.
+  
+-	Resets logic if the player is cut by the saw
+
+<br>BP_Saw –
+
+-	Handles saw movement
+  
+-	If Saw hits the player, the player loses a limb and is teleported back to the pawn point
+  
+-	Resets if the hit player
+
+<br>BP_Steam –
+
+-	Handles steam movement
+  
+-	Steam rolls in and temp blinds the player
+
+<br>BP_ActivateHazards –
+
+-	Activates hazards if the player overlaps
+
+<br>BP_ConveyorBeltCurved –
+
+-	Add forward movement to any object that overlaps
+
+<br>BP_ConveyorBeltStrate –
+
+-	Add forward movement to any object that overlaps
+
+<br>BP_ConveyorButton – 
+
+-	Turn off selected conveyor belts
+
+<br>SFX:
+
+-	FlippingPaper.mp3
+  
+-	Conveyor1.mp3
+
+-	Conveyor.mp3
+
+-	MonsterScream1.mp3
+
+-	MonsterScream.mp3
+
+-	Dollfootsteps.mp3\
+  
+- FanSmall.mp3
+
+-	Pulse.mp3
+
+-	PushingObj.mp3
+
+-	SowingFull.mp3
+
+-	ItemDropped.mp3
+
+-	FlipSwitch.mp3
+
+-	Static.mp3
+
+-	LoseLimb.mp3
+
+-	PullStringOp2.mp3
+
+-	PullStringOp1.mp3
+
+-	MachineHum.mp3
+
+-	FanLarge.mp3
+
+-	Beep.mp3
+
+-	Hit.mp3
+
+- Alarm.mp3
 
 
 <br><br>
@@ -414,15 +551,15 @@ Github: https://github.com/corinnedaigle3/Coding2_Lab1
 <br>
 ChessBoard – 
 
-•	Draws an eight by eight grid using Gizmos.DrawLine.
+-	Draws an eight-by-eight grid using Gizmos.DrawLine.
 
 <br>HandlePiece – 
 
-•	Draws a custom Scene view gizmo for GameObjects with the script
+-	Draws a custom Scene view gizmo for GameObjects with the script
 
 <br>ColorPiece – 
 
-•	Allows user to change the pawns color in the inspector in reatime
+-	Allows the user to change the pawn's color in the inspector in real-time
 
 <br><br>
 ### Coding2_Lab2: ###
@@ -432,19 +569,19 @@ Github: https://github.com/corinnedaigle3/Coding2_Lab2/blob/main/Assets/Runtime/
 <br>
 CubeBehaviourEditor– 
 
-•	Handles the size of cubes, selection of cubes, and button for cubes
+-	Handles the size of cubes, selection of cubes, and the button for cubes
 
 <br>SphereBehaviourEditor– 
 
-•	Handles the size of spheres, selection of spheres, and button for spheres
+-	Handles the size of spheres, selection of spheres, and the button for spheres
 
 <br>CubeBehaviour– 
 
-•	Holds the variable for the size of cubes
+-	Holds the variable for the size of cubes
 
 <br>SphereBehaviour– 
 
-•	Holds the variable for the size of spheres
+-	Holds the variable for the size of spheres
 
 <br><br>
 ### Coding2_Lab3: ###
@@ -453,11 +590,11 @@ Github: https://github.com/corinnedaigle3/Coding2_Lab3
 <br>
 Targeting – 
 
-•	Handles enemy movement (rotating around the player, while never hitting the player)
+-	Handles enemy movement (rotating around the player, while never hitting the player)
 
 <br>PlayerMovement – 
 
-•	Basic player movement
+-	Basic player movement
 
 <br><br>
 ### DIG4778C_Lab4: ###
@@ -467,11 +604,11 @@ Github: https://github.com/corinnedaigle3/DIG4778C_Lab4
 <br>
 Player – 
 
-•	Handles player movement with the new input system
+-	Handles player movement with the new input system
 
 <br>Meteor – (Updated)
 
-•	Updated the meteor script so it will rotate around the player
+-	Updated the meteor script so it will rotate around the player
 
 <br><br>
 ### Lab5: ###
@@ -481,7 +618,7 @@ Github: http://github.com/LilyW3865/Lab5/tree/main
 <br>
 Avoider – 
 
-•	Handles when the avoider sees the avoided, select new poissin point until hidden.
+-	Handles when the avoider sees the avoided, select new poissin point until hidden.
 
 <br><br>
 ### Coding2_Lab6: ###
@@ -491,7 +628,7 @@ Github: https://github.com/corinnedaigle3/Lab6TextAdv
 <br>
 DLL – 
 
-•	Text Adventure tutorial 
+-	Text Adventure tutorial 
 
 <br><br>
 ### Coding_Lab7: ###
@@ -501,11 +638,11 @@ Github: https://github.com/Sze0921HY/Coding_Lab7
 <br> 
 DLL Native – 
 
-•	function to test how long it takes to sort an array
+-	function to test how long it takes to sort an array
 
 <br>Test DLL – 
 
-•	function to test how long it takes to sort an array
+-	function to test how long it takes to sort an array
 
 <br><br>
 ### Coding2_Lab9/10: ###
@@ -515,33 +652,33 @@ Github:  https://github.com/corinnedaigle3/Coding2_Lab9
 <br>
 Target –
 
-•	Sets the rigidbody velocity to move right * speed from TargetBuilder.cs to the spawned targets in TargetSpawner.cs 1-3
+-	Sets the rigidbody velocity to move right * speed from TargetBuilder.cs to the spawned targets in TargetSpawner.cs 1-3
 
-•	Destroys target after 5 seconds for optimization.
+-	Destroys target after 5 seconds for optimization.
 
 <br>TargetBuilder –
 
-•	TargetBuilder class holds the variables 
+-	TargetBuilder class holds the variables 
 
-•	The Builder class sets values and retuns the builder
+-	The Builder class sets values and returns the builder
 
-•	Build function is where the GameObjects are created
+-	The build function is where the GameObjects are created
 
 <br>TargetSpawner(1-3) –  
 
-•	Spawns’ random targets constructed targets from TargetBuilder.cs at set intervals
+-	Spawns random targets constructed targets from TargetBuilder.cs at set intervals
 
-•	Sets the variables from TargetBuilder.cs
+-	Sets the variables from TargetBuilder.cs
 
-•	Returns the Build function
+-	Returns the Build function
 
 <br>SaveManager – 
 
-•	Implements the saving/loading when the respective keyboard buttons are pressed and destroys the save when it is loaded.
+-	Implements the saving/loading when the respective keyboard buttons are pressed and destroys the save when it is loaded.
 
 <br>ISaveable – (Helped)
 
-•	An interface that defines the saved data using an Id. It has a saving class that manages the actual saving and loading of objects.
+-	An interface that defines the saved data using an ID. It has a saving class that manages the actual saving and loading of objects.
 
 <br><br>
 ### Coding2_Lab11: ###
@@ -551,16 +688,16 @@ Github: https://github.com/corinnedaigle3/Coding2_Lab11
 <br>
 Pathfinding – 
 
-•	Sets the NavMeshAgent's target destination to the goal position
+-	Sets the NavMeshAgent's target destination to the goal position
 
-•	Draw the calculated path in blue, start cell in green, and goal cell in red
+-	Draw the calculated path in blue, start cell in green, and goal cell in red
 
-•	Check if grid coordinates are within the grid
+-	Check if grid coordinates are within the grid
 
 <br>LevelGenerator –
 
-•	Set grid width and height
+-	Set grid width and height
 
-•	Spawns in player
+-	Spawns in the player
 
-•	Generates grid
+-	Generates grid
