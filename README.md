@@ -98,8 +98,7 @@ Music / SFX:
 
 **Github:** https://github.com/corinnedaigle3/BedtimeRebellion
 
-<br>
-Code:
+<br>Code:
 
 Main Scene Code –
 
@@ -109,9 +108,15 @@ Main Scene Code –
 
 -	Random spawn - The teddy bear in the maze randomly picks one of three locations to spawn at the start of the game.
 
--	Correct item identification - Score will only increase if all the correct items are placed in the correct slots. 
+-	Correct item identification - Score will only increase if all the correct items are placed in the proper slots. 
 
 -	Sleep logic - to counteract getting caught by the parents, the player can make their way to the bed to fake sleep, and cancel the end of the game. 
+
+<br>BP_Planets (All planets minus Earth and Jupiter) - 
+
+- Set the speed of the planets
+  
+- Moves the planets along a predetermined path
 
 
 <br><br>
