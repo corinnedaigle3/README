@@ -103,15 +103,15 @@ Code:
 
 Main Scene Code –
 
--	Parent Alarm system
+-	Parent Alarm System - which alerts the player if they make too much noise.
 
--	Score system
+-	Score system - Every time the player completes a puzzle, the player's score increases.
 
--	Random spawn
+-	Random spawn - The teddy bear in the maze randomly picks one of three locations to spawn at the start of the game.
 
--	Correct item identification
+-	Correct item identification - Score will only increase if all the correct items are placed in the correct slots. 
 
--	Sleep logic
+-	Sleep logic - to counteract getting caught by the parents, the player can make their way to the bed to fake sleep, and cancel the end of the game. 
 
 
 <br><br>
@@ -125,7 +125,7 @@ Main Scene Code –
 
 DeckUIManager – 
 
--	Handles instantiating a card in the UI for every card in player deck.
+-	Handles instantiating a card in the UI for every card in the player deck.
 
 <br>DeckManager – Helped by setting reffs
 
